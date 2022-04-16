@@ -1,6 +1,6 @@
 ## Face recognition cam with raspberry pi
 
-This project is based on [face_detection_picamera]("https://github.com/navneet-parab/face_detection_picamera").
+This project is based on [face_detection_picamera](https://github.com/navneet-parab/face_detection_picamera).
 
 The goal of this project is to build a low power face recognition cam using a Raspberry Pi.  
 The pir sensor detects motion and the face recognition algorithm is executed.
