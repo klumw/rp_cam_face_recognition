@@ -18,7 +18,7 @@ Add your images under dataset/\<name>/\<image>.
 run the script *train_model.py* to create the *encodings.pickle* file with all your training data.
 
 ### Face recognition
-When training is finished run the script *facial.py*.
+When training is finished run the script *facial_req.py*.
 
 ### PIR sensor 287-18001 wiring
 ![PIR wiring](./docs/rp3_pir_wiring.png)
