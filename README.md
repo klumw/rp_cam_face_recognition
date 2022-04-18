@@ -11,7 +11,7 @@ I personally use openHAB to process the data, but any system with a Mqtt bridge 
 ### Software Installation
 For opencv the opencv-python-headless version is used, it comes without UI bindings and uses less resources.
 Use pip to install all required packages.  
-Setup the Mqtt server in script *face_req.py*
+Setup the Mqtt server in script *facial_req.py*
 
 ### Model Training
 Add your images under dataset/\<name>/\<image>.
