@@ -13,7 +13,7 @@ import RPi.GPIO as GPIO
 import paho.mqtt.client as mqtt
 
 # MQTT Broker, ip or server name
-MQTT_BROKER = "mqttserver"
+MQTT_BROKER = "home1"
 # PIR sensor topic
 TOPIC_PIR = "face/pir/01"
 # Recognized name topic

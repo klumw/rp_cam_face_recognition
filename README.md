@@ -20,12 +20,14 @@ run the script *train_model.py* to create the *encodings.pickle* file with all y
 ### Face recognition
 When training is finished run the script *facial.py*.
 
-### RP3 B+ with PI Cam and PIR Sensor 287-18001
+### PIR sensor 287-18001 wiring
+![PIR wiring](./docs/rp3_pir_wiring.png)
+### RP3 B+ with PI Cam and PIR sensor
 ![RP Cam with PIR Sensor](./docs/rp3_face_cam.png "Title")
 
 ### Usage example
 In my personal setup openHAB executes the following rules:  
-If a person is not recognized, the person is asked to face the camera (for audio I use a Google Nest).
-If the person does not comply or is unknown to the system, an alarm is triggered.
-If a face is recognized the system marks this person as present. 
+If a person is not recognized, the person is asked to face the camera (for audio I use a Google Nest).  
+If the person does not comply or is unknown to the system, an alarm is triggered.  
+If a face is recognized the system marks this person as present.  
 If no motion is detected for some time the person is marked as absent.
